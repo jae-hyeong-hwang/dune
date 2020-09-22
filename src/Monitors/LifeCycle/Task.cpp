@@ -54,7 +54,7 @@ namespace Monitors
       void
       onUpdateParameters(void)
       {
-	war("Task Named %s is deactivating..." , getName());
+	war("onUpdateParameters");
       }
 
       //! Reserve entity identifiers.
@@ -62,7 +62,8 @@ namespace Monitors
       onEntityReservation(void)
       {
 	war("Task Named %s is deactivating..." , getName());
-      }
+        inf("Information");
+     }
 
       //! Resolve entity names.
       void
